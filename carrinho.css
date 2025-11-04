@@ -1,0 +1,35 @@
+/* carrinho */
+section{
+    padding: 10rem 2rem;
+    max-width: 1200px;
+}
+table{
+    border-collapse: collapse; /* Junta as bordas */
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+.img-carrinho{
+    width: 50%;
+    height: 100px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+th, td {
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+.botoes .numero{
+    max-width: 60px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.conteudo-carrinho .titulo-carrinho{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>CADASTRO CROCHE</title>
+</head>
+<body>
+    <button onclick="history.back()" class="voltar">Voltar</button>
+
+    <!-- INICIO FORMULARIO CADASTRO -->
+    <div class="formulario" id="formulario">
+        <form>
+            <h1>Criar uma conta</h1>
+            <div class="grupo-form">
+                <p class="negrito">NOME COMPLETO</p>
+                <input>
+            </div>
+            <div class="grupo-form">
+                <p class="negrito">E-MAIL</p>
+                <input placeholder="Ex: seunome@gmail.com" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="grupo-form">
+                <p class="negrito">SENHA</p>
+                <input type="password" placeholder="Senha" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="grupo-form" placeholder="Confirme a senha">
+                <p class="negrito">CONFIRMAR SENHA</p>
+                <input type="password">
+            </div>
+            <div class="caixa-lem">
+                <label><input type="checkbox">Lembrar-me</label>
+            </div>
+
+            <button class="botao-cad" type="submit">
+                <a href="index.html" class="botao-link">Entrar</a>
+            </button>
+        </form>
+    </div>
+    <!-- FIM FORMULARIO CADASTRO -->
+</body>
+</html>
